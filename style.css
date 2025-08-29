@@ -26,16 +26,21 @@ body {
 }
 
 .background1 {
-  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('bg1.jpg');
-  box-sizing: border-box;
-  background-size: cover;
+  background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('bg1.jpg');
+  background-size: cover;        /* gambar penuh layar */
+  background-repeat: no-repeat;  /* jangan diulang */
+  background-position: center;   /* selalu center */
+  min-height: 100vh;             /* minimal setinggi layar */
 }
 
 .background2 {
-  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('bg2.png');
-  box-sizing: border-box;
+  background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('bg2.png');
   background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 100vh;
 }
+
 
 .muncul {
   animation: muncul 1200ms ease;
@@ -194,8 +199,11 @@ body {
   display: none;
 }
 
-@media screen and (min-width: 600px) {
-  .body {
-    width: 470px;
+@media (max-width: 600px) {
+  .background1, .background2 {
+    background-position: top;  /* biar fokus atas kalau di HP */
   }
+}
+
+
 }
