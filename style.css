@@ -2,8 +2,6 @@
 
 body {
   background-color: rgb(36, 36, 36);
-  min-height: 100vh;   /* minimal setinggi layar */
-  width: 100%;
 }
 
 * {
@@ -29,10 +27,11 @@ body {
 
 .background1 {
   background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('bg1.jpg');
-  background-size: cover;        /* gambar penuh layar */
-  background-repeat: no-repeat;  /* jangan diulang */
-  background-position: center;   /* selalu center */
-  min-height: 100vh;             /* minimal setinggi layar */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 100vh;
+  width: 100%;
 }
 
 .background2 {
@@ -41,8 +40,8 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   min-height: 100vh;
+  width: 100%;
 }
-
 
 .muncul {
   animation: muncul 1200ms ease;
@@ -209,4 +208,5 @@ body {
 
 
 }
+
 
