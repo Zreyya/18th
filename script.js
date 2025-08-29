@@ -36,7 +36,7 @@ const pesan = `
 kamuu tauu gaa kenapaa aku pilih kamuu??? soalnyaa akuu percayaa kalo sama kamuu akuu yakin kitaa bisa wujudin mimpii kita bareng-barengg, kenapaa gituu??? karena sama kamuu akuu jadi lebih semangatt buat jalanin hari-hari yang dulunya aku anggap berat begitu jugaa kamuu, akuu bakal selalu support kamuu apapun yangg mauu kamuu capaii🤍🤍🤍
 sayaang, akuu selalu adaaa buat kamuuuu. walaupun kita ldr kaya ginii akuu selalu percayaa samaa kamuu, aku bersyukur bangeet kamuu hadir di hidup akuu. akuu harap semogaa kamuu selalu seneng teruus bahagia teruus, bisaa banggain mama, papa, kakak, adek dan orang-orang terdekat kamuuu. aku mohonn kalo kamuu lagi sedihh, capee, ato ngerasa ngedown luapin semuanya ke akuu yaaa cerita ke akuuu🥺🥺
 akuuu sayaang bangeett sama kamuuu, kamuu jugaa kann sayaang sama akuuu (jawab iyaa pliiss😣)
-akuu banggaaa samaa kamuuu, selamat ulang tahunn yaa cantiiikk 18elieve you💕`;
+akuu banggaaa samaa kamuuu, selamat ulang tahunn yaa cantiiikk 18elong to you💕`;
 
 if (pengirim) {
   nama.innerHTML = pengirim;
@@ -113,4 +113,5 @@ const typeWriter = () => {
 hilang2.addEventListener('click', () => {
   window.open(`https://wa.me/${nomorWa}/?text=${textWa}`, '_blank')
 })
+
 
